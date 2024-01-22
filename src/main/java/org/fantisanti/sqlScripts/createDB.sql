@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS Event CASCADE;
 DROP TABLE IF EXISTS Festival CASCADE;
-DROP TABLE IF EXISTS Party;
+DROP TABLE IF EXISTS Party CASCADE;
 
 CREATE TABLE Event
 (
@@ -28,8 +28,12 @@ CREATE TABLE Party
    partyID SERIAL PRIMARY KEY,
    eventID INT REFERENCES Event(eventID), -- a foreign key relationship to Event
    partyName VARCHAR(100),
-   partyDate DATE,
-   djName VARCHAR(100)
+   partyLocation VARCHAR(50),
+   partyStartDate DATE,
+   partyEndDate DATE,
+   partyPrice DOUBLE PRECISION,
+   djName VARCHAR(100)  
+	
 );
 -- adding data insert to event table
 INSERT INTO Event (eventName, eventLocation, eventPrice, availableTickets, eventDate)
@@ -48,9 +52,9 @@ VALUES (1, 'Milkshake Amsterdam', 'Amsterdam', 'Queen Amsterdam', false, '2024-0
 INSERT INTO Festival (eventID, festivalName, festivalLocation, artistName, campingAvailable, festivalStartDate, festivalEndDate, festivalPrice)
 VALUES (1, 'Milkshake Utrecht', 'Utrecht', 'Queen Utrecht', false, '2024-07-01', '2024-09-02', 50.0);
 
--- adding data to Party table
-INSERT INTO Party (eventID, partyName, partyDate, djName)
-VALUES (2, 'Klubnacht Berlin', '2024-10-09', 'DJ Hamid');
+-- -- adding data to Party table
+-- INSERT INTO Party (eventID, partyName, partyDate, djName)
+-- VALUES (2, 'Klubnacht Berlin', '2024-10-09', 'DJ Hamid');
 
-INSERT INTO Party (eventID, partyName, partyDate, djName)
-VALUES (2, 'White Party Amsterdam', '2024-01-15', 'DJ capriati');
+-- INSERT INTO Party (eventID, partyName, partyDate, djName)
+-- VALUES (2, 'White Party Amsterdam', '2024-01-15', 'DJ capriati');
