@@ -25,8 +25,8 @@ public class Festival extends Event {
         campingAvailable = campingAvailable;
     }
 
-    public Festival(String name, String location, Date date, Price ticketPrice , int availableTickets) {
-        super(name,location, date, ticketPrice, availableTickets);
+    public Festival(String name, String location, Date date, int availableTickets) {
+        super(name,location, date, availableTickets);
         this.Artists = new ArrayList<>();
         this.campingAvailable = false;
     }

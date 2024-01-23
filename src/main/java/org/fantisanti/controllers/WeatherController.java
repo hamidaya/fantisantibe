@@ -1,4 +1,4 @@
-package com.fanti.fanti.controllers;
+package org.fantisanti.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +18,7 @@ public class WeatherController {
     }
 
     // Nieuwe /api/greeting met een naam parameter
-    @GetMapping("/api/weather/current/{coordinates}")
+    @GetMapping("/api/weather/current/coordinates")
     public String weather(@RequestParam double lat, @RequestParam double lon) {
         return "Het regent in " + lat +" " + lon;
     }
