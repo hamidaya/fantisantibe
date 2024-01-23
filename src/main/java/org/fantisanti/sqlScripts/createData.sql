@@ -112,7 +112,7 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Party (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, djName)
+        INSERT INTO Party (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, dressCode, djName)
 
         VALUES (
 
@@ -127,8 +127,8 @@ BEGIN
 			'2024-01-01'::DATE + (random() * 365)::INT,
 			
             random() * 100,
-			
-			 random_string(12) || ' Dj'
+            random_string(12) || ' dressCode',
+			random_string(1) || ' Dj'
 
         );
 

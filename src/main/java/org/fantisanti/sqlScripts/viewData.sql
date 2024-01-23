@@ -1,1 +1,1 @@
-SELECT * FROM Party;
+SELECT * FROM festival;
