@@ -1,8 +1,8 @@
 package org.fantisanti;
 
-import java.util.ArrayList;
+import org.fantisanti.eventRegistration.Event;
+
 import java.util.Date;
-import java.util.List;
 
 public class Festival extends Event {
 

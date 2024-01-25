@@ -1,5 +1,7 @@
 package org.fantisanti;
 
+import org.fantisanti.eventRegistration.Event;
+
 import java.util.Date;
 
 public class Party extends Event {
