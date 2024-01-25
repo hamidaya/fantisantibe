@@ -1,4 +1,6 @@
-package org.fantisanti;
+package org.fantisanti.eventRegistration;
+
+import org.fantisanti.interfaces.IEevent;
 
 import java.util.Date;
 
@@ -7,7 +9,6 @@ public class Event implements IEevent {
     public void test1() {
         System.out.println("eventje");
     }
-
     Long eventID;
     String eventName;
     String eventLocation;
