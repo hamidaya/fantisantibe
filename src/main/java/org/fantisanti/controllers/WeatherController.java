@@ -20,7 +20,6 @@ public class WeatherController {
         return "Bewolkt in " + city;
     }
 
-    // Nieuwe /api/greeting met een naam parameter
     @GetMapping("/api/weather/current/coordinates")
     public String weather(@RequestParam double lat, @RequestParam double lon) {
         return "Het regent in " + lat +" " + lon;
