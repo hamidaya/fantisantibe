@@ -1,6 +1,6 @@
-package org.fantisanti;
+package org.fantisanti.app;
 
-import org.fantisanti.eventRegistration.Event;
+import org.fantisanti.app.Event;
 
 import java.util.Date;
 
@@ -10,7 +10,6 @@ public class Festival extends Event {
     String artistName;
     Boolean campingAvailable;
     Date festivalStartDate;
-
     Date festivalEndtDate;
 
     public Long getFestivalID() {

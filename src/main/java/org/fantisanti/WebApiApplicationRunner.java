@@ -3,8 +3,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebApiApplication {
+public class WebApiApplicationRunner {
     public static void main(String[] args) {
-        SpringApplication.run(WebApiApplication.class, args);
+        SpringApplication.run(WebApiApplicationRunner.class, args);
     }
 }

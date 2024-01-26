@@ -1,4 +1,4 @@
-package org.fantisanti.eventRegistration;
+package org.fantisanti.app;
 
 import org.fantisanti.interfaces.IEevent;
 
