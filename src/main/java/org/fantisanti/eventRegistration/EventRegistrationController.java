@@ -7,7 +7,7 @@ public class EventRegistrationController {
         public String getEventName (@PathVariable String eventName){
             return eventName;
         }
-    }
+}
 
 
 
