@@ -1,5 +1,6 @@
-package org.fantisanti.app;
+package org.fantisanti.event;
 
+import org.fantisanti.eventSearch.EventRepository;
 import org.fantisanti.interfaces.IEevent;
 
 import java.util.Date;
@@ -68,4 +69,4 @@ public class Event implements IEevent {
 
     }
 
-}
+        }

@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS Party CASCADE;
 CREATE TABLE Event
 (
    eventID SERIAL PRIMARY KEY,
-   eventName VARCHAR(100),
+   eventName VARCHAR(100) NOT NULL ,
    eventLocation VARCHAR(50),
    eventPrice DOUBLE PRECISION,
    availableTickets INT,

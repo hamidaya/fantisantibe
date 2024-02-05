@@ -46,9 +46,9 @@ BEGIN
 
         VALUES (
 
-            random_string(10), 
+            random_string(10),
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 
             random() * 100, 
 
@@ -80,11 +80,11 @@ BEGIN
 
             i, 
 
-            random_string(15) || ' Festival', 
+            random_string(15) || ' Festival',
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 
-            random_string(12) || ' Artist', 
+            random_string(12) || ' Artist',
 
             random() < 0.5, 
 
@@ -118,9 +118,9 @@ BEGIN
 
             i, 
 			
-			 random_string(15) || ' Party', 
+			 random_string(15) || ' Party',
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 			
 			'2024-01-01'::DATE + (random() * 365)::INT,
 			
