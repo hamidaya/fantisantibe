@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bIu7iVGpbOeZSQ4K6SmMuR6Rb4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Database Script.createDB.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.createData.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.viewData.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.viewRelations.sql (1).executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.viewRelations.sql.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.WebApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.WebApiApplicationRun.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.WebApiApplicationRunner.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;b0aafb39-e05f-4e00-a89d-5b01a1f6ad89/database/\&quot;postgres\&quot;&quot;,
+      &quot;b0aafb39-e05f-4e00-a89d-5b01a1f6ad89&quot;,
+      &quot;5d2ebb88-07db-4303-ad84-4e297f0d24df&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/fantisanti" />
+      <recent name="$PROJECT_DIR$/src/fanti" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.fantisanti" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Database Script.createDB.sql (1)">
+    <configuration name="createDB.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/org/fantisanti/maintenance/sqlScripts/createDB.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="createData.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/org/fantisanti/sqlScripts/createData.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="5d2ebb88-07db-4303-ad84-4e297f0d24df" />
+      <method v="2" />
+    </configuration>
+    <configuration name="viewData.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/org/fantisanti/sqlScripts/viewData.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="5d2ebb88-07db-4303-ad84-4e297f0d24df" />
+      <method v="2" />
+    </configuration>
+    <configuration name="viewRelations.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <data-source id="5d2ebb88-07db-4303-ad84-4e297f0d24df" />
+      <script-text>select * from festival</script-text>
+      <method v="2" />
+    </configuration>
+    <configuration name="viewRelations.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <data-source id="5d2ebb88-07db-4303-ad84-4e297f0d24df" />
+      <script-text>select * from festival;</script-text>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebApiApplicationRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="fantisantibe" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.fantisanti.WebApiApplicationRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.viewRelations.sql" />
+        <item itemvalue="Database Script.viewRelations.sql (1)" />
+        <item itemvalue="Database Script.viewData.sql" />
+        <item itemvalue="Database Script.createData.sql" />
+        <item itemvalue="Database Script.createDB.sql (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-3183f394aec4-229f571c" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="" />
+      <created>1705914748405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705914748405</updated>
+      <workItem from="1705914749507" duration="1377000" />
+      <workItem from="1705916231669" duration="33376000" />
+      <workItem from="1706539879607" duration="6907000" />
+      <workItem from="1706783022123" duration="1218000" />
+      <workItem from="1707209838628" duration="561000" />
+      <workItem from="1707213229461" duration="453000" />
+    </task>
+    <task id="LOCAL-00001" summary="gfgfg">
+      <option name="closed" value="true" />
+      <created>1706029622806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706029622806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="api created">
+      <option name="closed" value="true" />
+      <created>1706118170810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706118170810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="structuur veranderd">
+      <option name="closed" value="true" />
+      <created>1706289991287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706289991287</updated>
+    </task>
+    <task id="LOCAL-00004" summary="structuur veranderd">
+      <option name="closed" value="true" />
+      <created>1706626170930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706626170930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gfgfg" />
+    <MESSAGE value="api created" />
+    <MESSAGE value="structuur veranderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="structuur veranderd" />
+  </component>
+</project>
