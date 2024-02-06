@@ -2,11 +2,15 @@ package org.fantisanti.event;
 import org.fantisanti.interfaces.IEevent;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 @Entity
+@Table (name = "events")
 public class Event implements IEevent {
 
+    @GeneratedValue
     @Id
     private Long eventID;
     private String eventName;
