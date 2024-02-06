@@ -42,13 +42,13 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Event (eventName, eventLocation, eventPrice, availableTickets, eventDate)
+        INSERT INTO events (eventName, eventLocation, eventPrice, availableTickets, eventDate)
 
         VALUES (
 
-            random_string(10), 
+            random_string(10),
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 
             random() * 100, 
 
@@ -74,17 +74,17 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Festival (eventID, festivalName, festivalLocation, artistName, campingAvailable, festivalStartDate, festivalEndDate, festivalPrice)
+        INSERT INTO festivals (eventID, festivalName, festivalLocation, artistName, campingAvailable, festivalStartDate, festivalEndDate, festivalPrice)
 
         VALUES (
 
             i, 
 
-            random_string(15) || ' Festival', 
+            random_string(15) || ' Festival',
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 
-            random_string(12) || ' Artist', 
+            random_string(12) || ' Artist',
 
             random() < 0.5, 
 
@@ -112,15 +112,15 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Party (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, dressCode, djName)
+        INSERT INTO partys (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, dressCode, djName)
 
         VALUES (
 
             i, 
 			
-			 random_string(15) || ' Party', 
+			 random_string(15) || ' Party',
 
-            random_string(8) || ' City', 
+            random_string(8) || ' City',
 			
 			'2024-01-01'::DATE + (random() * 365)::INT,
 			

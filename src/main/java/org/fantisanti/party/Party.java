@@ -1,6 +1,6 @@
-package org.fantisanti;
+package org.fantisanti.party;
 
-import org.fantisanti.eventRegistration.Event;
+import org.fantisanti.event.Event;
 
 import java.util.Date;
 
