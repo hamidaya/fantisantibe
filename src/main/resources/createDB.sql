@@ -1,20 +1,20 @@
-DROP TABLE IF EXISTS Event CASCADE;
-DROP TABLE IF EXISTS Festival CASCADE;
-DROP TABLE IF EXISTS Party CASCADE;
+DROP TABLE IF EXISTS Events CASCADE;
+DROP TABLE IF EXISTS Festivals CASCADE;
+DROP TABLE IF EXISTS Partys CASCADE;
 
-CREATE TABLE Event
+CREATE TABLE Events
 (
    eventID SERIAL PRIMARY KEY,
-   eventName VARCHAR(100) NOT NULL ,
+   eventName VARCHAR(100),
    eventLocation VARCHAR(50),
    eventPrice DOUBLE PRECISION,
    availableTickets INT,
    eventDate DATE
 );
-CREATE TABLE Festival
+CREATE TABLE Festivals
 (
    festivalID SERIAL PRIMARY KEY,
-   eventID INT REFERENCES Event(eventID), -- a foreign key relationship to Event
+   eventID INT REFERENCES Events(eventID), -- a foreign key relationship to Event
    festivalName VARCHAR(100),
    festivalLocation VARCHAR(50),
    artistName VARCHAR(100),
@@ -23,10 +23,10 @@ CREATE TABLE Festival
    festivalEndDate DATE,
    festivalPrice DOUBLE PRECISION
 );
-CREATE TABLE Party
+CREATE TABLE Partys
 (
    partyID SERIAL PRIMARY KEY,
-   eventID INT REFERENCES Event(eventID), -- a foreign key relationship to Event
+   eventID INT REFERENCES Events(eventID), -- a foreign key relationship to Event
    partyName VARCHAR(100),
    partyLocation VARCHAR(50),
    partyStartDate DATE,

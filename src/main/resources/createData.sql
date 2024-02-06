@@ -42,7 +42,7 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Event (eventName, eventLocation, eventPrice, availableTickets, eventDate)
+        INSERT INTO events (eventName, eventLocation, eventPrice, availableTickets, eventDate)
 
         VALUES (
 
@@ -74,7 +74,7 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Festival (eventID, festivalName, festivalLocation, artistName, campingAvailable, festivalStartDate, festivalEndDate, festivalPrice)
+        INSERT INTO festivals (eventID, festivalName, festivalLocation, artistName, campingAvailable, festivalStartDate, festivalEndDate, festivalPrice)
 
         VALUES (
 
@@ -112,7 +112,7 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO Party (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, dressCode, djName)
+        INSERT INTO partys (eventID, partyName, partyLocation, partyStartDate, partyEndDate, partyPrice, dressCode, djName)
 
         VALUES (
 
