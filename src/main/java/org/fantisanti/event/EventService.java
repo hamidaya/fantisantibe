@@ -18,7 +18,7 @@ public class EventService {
         return eventRepository.findAll();
     }
 
-
+//
 //    public Event getEventById(Long eventId) {
 //        return eventRepository.findAllById()
 //    }
