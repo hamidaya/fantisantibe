@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="dfadf">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/createDDL'S.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createDDL.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/createData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createData.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -183,7 +178,7 @@
       <workItem from="1707471893216" duration="1231000" />
       <workItem from="1707745617211" duration="1254000" />
       <workItem from="1707752489667" duration="1171000" />
-      <workItem from="1707753675954" duration="7205000" />
+      <workItem from="1707753675954" duration="9529000" />
     </task>
     <task id="LOCAL-00001" summary="gfgfg">
       <option name="closed" value="true" />
@@ -241,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707471916128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen.">
+      <option name="closed" value="true" />
+      <created>1707771475433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707771475433</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +269,8 @@
     <MESSAGE value="Structuur aangepast appllicatie" />
     <MESSAGE value="aanpassing na merge" />
     <MESSAGE value="dfadf" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfadf" />
+    <MESSAGE value="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen." />
+    <option name="LAST_COMMIT_MESSAGE" value="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
