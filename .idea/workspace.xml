@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="aanpassing na merge">
+    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="dfadf">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/models/book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createDDL'S.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createDDL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createData.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,59 +45,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Database Script.CreateDB.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.CreateDB1.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.createDB.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.createDDL'S.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.createData.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.data.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.viewData.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.viewRelations.sql (1).executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.viewRelations.sql.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.WebApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.WebApiApplicationRun.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.WebApiApplicationRunner.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sprintBootApi&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ff4a9bbd4aa0ce305cd4843ac71f8ae7&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Database Script.CreateDB.sql.executor": "Run",
+    "Database Script.CreateDB1.sql.executor": "Run",
+    "Database Script.createDB.sql.executor": "Run",
+    "Database Script.createDDL'S.sql.executor": "Run",
+    "Database Script.createData.sql.executor": "Run",
+    "Database Script.data.sql.executor": "Run",
+    "Database Script.viewData.sql.executor": "Run",
+    "Database Script.viewRelations.sql (1).executor": "Run",
+    "Database Script.viewRelations.sql.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.WebApiApplication.executor": "Run",
+    "Spring Boot.WebApiApplicationRun.executor": "Run",
+    "Spring Boot.WebApiApplicationRunner.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "sprintBootApi",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "ff4a9bbd4aa0ce305cd4843ac71f8ae7",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;b0aafb39-e05f-4e00-a89d-5b01a1f6ad89/database/\&quot;postgres\&quot;&quot;,
-      &quot;b0aafb39-e05f-4e00-a89d-5b01a1f6ad89&quot;,
-      &quot;5d2ebb88-07db-4303-ad84-4e297f0d24df&quot;,
-      &quot;b9bd41e7-4ff0-4e2f-9b22-64296f3318e7&quot;
+    "RunConfigurationTargetLRU": [
+      "5d2ebb88-07db-4303-ad84-4e297f0d24df",
+      "b9bd41e7-4ff0-4e2f-9b22-64296f3318e7",
+      "a436d9e4-8a05-4a01-8720-ca576363cc24",
+      "0886ff1f-afbe-40ad-85d9-63e807ded85c",
+      "1df5040d-a4e7-41b3-b3ba-b696a338a147"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -106,22 +110,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WebApiApplicationRunner">
-    <configuration name="CreateDB1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/src/main/resources/CreateDB1.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="b9bd41e7-4ff0-4e2f-9b22-64296f3318e7" />
-      <method v="2" />
-    </configuration>
     <configuration name="CreateDB.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateDB.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="b9bd41e7-4ff0-4e2f-9b22-64296f3318e7" />
-      <method v="2" />
-    </configuration>
-    <configuration name="createDB.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/target/classes/createDB.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="b9bd41e7-4ff0-4e2f-9b22-64296f3318e7" />
+      <data-source id="1df5040d-a4e7-41b3-b3ba-b696a338a147" />
       <method v="2" />
     </configuration>
     <configuration name="createDDL'S.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
@@ -130,10 +122,16 @@
       <data-source id="b9bd41e7-4ff0-4e2f-9b22-64296f3318e7" />
       <method v="2" />
     </configuration>
-    <configuration name="data.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/target/classes/data.sql" />
+    <configuration name="createDDL.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/createDDL.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="b9bd41e7-4ff0-4e2f-9b22-64296f3318e7" />
+      <data-source id="1df5040d-a4e7-41b3-b3ba-b696a338a147" />
+      <method v="2" />
+    </configuration>
+    <configuration name="createData.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/createData.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="1df5040d-a4e7-41b3-b3ba-b696a338a147" />
       <method v="2" />
     </configuration>
     <configuration name="WebApiApplicationRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -144,20 +142,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Database Script.createDDL.sql" />
+      <item itemvalue="Database Script.createData.sql" />
       <item itemvalue="Database Script.CreateDB.sql" />
-      <item itemvalue="Database Script.CreateDB1.sql" />
-      <item itemvalue="Database Script.createDB.sql" />
       <item itemvalue="Database Script.createDDL'S.sql" />
-      <item itemvalue="Database Script.data.sql" />
       <item itemvalue="Spring Boot.WebApiApplicationRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.createData.sql" />
+        <item itemvalue="Database Script.createDDL.sql" />
         <item itemvalue="Database Script.createDDL'S.sql" />
         <item itemvalue="Database Script.CreateDB.sql" />
-        <item itemvalue="Database Script.CreateDB1.sql" />
-        <item itemvalue="Database Script.createDB.sql" />
-        <item itemvalue="Database Script.data.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +180,10 @@
       <workItem from="1707209838628" duration="561000" />
       <workItem from="1707213229461" duration="6434000" />
       <workItem from="1707251761831" duration="2092000" />
+      <workItem from="1707471893216" duration="1231000" />
+      <workItem from="1707745617211" duration="1254000" />
+      <workItem from="1707752489667" duration="1171000" />
+      <workItem from="1707753675954" duration="7205000" />
     </task>
     <task id="LOCAL-00001" summary="gfgfg">
       <option name="closed" value="true" />
@@ -233,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707250886593</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dfadf">
+      <option name="closed" value="true" />
+      <created>1707471916128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707471916128</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +265,8 @@
     <MESSAGE value="structuur veranderd" />
     <MESSAGE value="Structuur aangepast appllicatie" />
     <MESSAGE value="aanpassing na merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="aanpassing na merge" />
+    <MESSAGE value="dfadf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfadf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

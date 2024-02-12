@@ -46,7 +46,7 @@ BEGIN
 
         VALUES (
 
-            random_string(10),
+            random_string(15) || ' Event',
 
             random_string(8) || ' City',
 
