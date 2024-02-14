@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class EventService {
@@ -18,16 +19,21 @@ public class EventService {
         return eventRepository.findAll();
     }
 
+    public Event getEventById(Long eventId) {
+        Optional<Event> optionalEvent = eventRepository.findById(eventId);
+        return optionalEvent.orElse(null);
 
-//    public Event getEventById(Long eventId) {
-//        return eventRepository.findAllById()
-//    }
-//        public Event createEvent (Event event){
-//        }
-//
-//        public Event updateEvent (Long eventId, Event updatedEvent){
-//        }
-//
-//        public void deleteEvent (Long eventId){
-//        }
     }
+
+    public Event createEvent (Event event){
+        return event;
+    }
+
+    public Event updateEvent (Long eventId, Event updatedEvent){
+        return updatedEvent;
+    }
+
+    public void deleteEvent (Long eventId){
+    }
+}
+
