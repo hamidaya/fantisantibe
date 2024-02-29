@@ -11,6 +11,10 @@ public class EventController {
     @Autowired
     private EventService eventService;
 
+    public EventController(EventService eventService) {
+    this.eventService = eventService;
+    }
+
     @GetMapping
     public List<Event> getAllEvents() {
         return eventService.getAllEvents();

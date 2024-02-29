@@ -52,8 +52,9 @@ public class Festival extends Event {
         this.festivalEndtDate = festivalEndtDate;
     }
 
-    public Festival(Long EventID, String eventName, String eventLocation, Date eventDate, Double eventPrice, Integer availableTickets) {
-        super(EventID, eventName, eventLocation, eventDate, eventPrice, availableTickets);
+    public Festival(Long festivalID, String festivalName, String festivalLocation, Date festivalDate, Double festivalPrice, Integer availableTickets) {
+        super(festivalID, festivalName, festivalLocation, festivalDate, festivalPrice, availableTickets);
+
     }
 }
 
