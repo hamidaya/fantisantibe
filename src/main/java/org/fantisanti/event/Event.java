@@ -5,9 +5,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.math.BigDecimal;
 import java.util.Date;
 @Entity
+
 @Table (name = "events")
+
 public class Event implements IEevent {
 
     @GeneratedValue
@@ -19,10 +22,36 @@ public class Event implements IEevent {
     private Double eventPrice;
     private Integer availableTickets;
 
-    public Event() {
+    private int yearOfManufacturing;
+
+    public int getYearOfManufacturing() {
+        return yearOfManufacturing;
     }
 
-        public Long getEventID () {
+    public void setYearOfManufacturing(int yearOfManufacturing) {
+        this.yearOfManufacturing = yearOfManufacturing;
+    }
+    //Price tickets
+    public BigDecimal getPurchaseEventPrice() {
+        return purchaseEventPrice;
+    }
+
+    public void setPurchaseEventPrice(BigDecimal purchaseEventPrice) {
+        this.purchaseEventPrice = purchaseEventPrice;
+    }
+
+    private BigDecimal purchaseEventPrice;
+    private BigDecimal minimumSellingEventPrice;
+    private BigDecimal askingEventPrice;
+
+
+
+    public Event() {
+
+    }
+
+
+    public Long getEventID () {
             return eventID;
         }
         public void setEventID (Long eventID){
@@ -59,12 +88,11 @@ public class Event implements IEevent {
             this.availableTickets = availableTickets;
         }
 
-        // Assuming IEevent interface has a method named "test1"
         @Override
-        public void test1 () {
-            System.out.println("Event: test1");
+        public void myEvent () {
+            System.out.println("Event processing interface executed...");
+
         }
-        // Constructor to initialize fields
     public
         Event(Long eventID, String eventName, String eventLocation, Date eventDate, Double eventPrice, Integer availableTickets)
         {
