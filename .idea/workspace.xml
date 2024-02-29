@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen.">
+    <list default="true" id="e35eba04-bcea-4958-9159-a7de59baafeb" name="Changes" comment="aanpassing sql data creation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fantisanti/event/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/createData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createData.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,7 @@
       <workItem from="1707471893216" duration="1231000" />
       <workItem from="1707745617211" duration="1254000" />
       <workItem from="1707752489667" duration="1171000" />
-      <workItem from="1707753675954" duration="9529000" />
+      <workItem from="1707753675954" duration="10975000" />
     </task>
     <task id="LOCAL-00001" summary="gfgfg">
       <option name="closed" value="true" />
@@ -244,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707771475433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="aanpassing sql data creation.">
+      <option name="closed" value="true" />
+      <created>1707774737629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707774737629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +276,8 @@
     <MESSAGE value="aanpassing na merge" />
     <MESSAGE value="dfadf" />
     <MESSAGE value="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen." />
-    <option name="LAST_COMMIT_MESSAGE" value="versie met basis werkende service voor de events. Ook postman krijg ik de ID's terug. Moet nog wel eventnamen terugkrijgen." />
+    <MESSAGE value="aanpassing sql data creation." />
+    <option name="LAST_COMMIT_MESSAGE" value="aanpassing sql data creation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
