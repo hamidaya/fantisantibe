@@ -1,6 +1,4 @@
-package org.fantisanti.festival;
-
-import org.fantisanti.event.Event;
+package org.fantisanti.models;
 
 import java.util.Date;
 

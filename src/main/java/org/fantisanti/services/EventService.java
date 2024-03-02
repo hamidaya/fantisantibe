@@ -1,5 +1,7 @@
-package org.fantisanti.event;
+package org.fantisanti.services;
 
+import org.fantisanti.repositories.EventRepository;
+import org.fantisanti.models.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,16 +19,13 @@ public class EventService {
 
     public List<Event> getAllEvents() {
         return eventRepository.findAll();
+
     }
 
     public Event getEventById(Long eventId) {
         Optional<Event> optionalEvent = eventRepository.findById(eventId);
         return optionalEvent.orElse(null);
 
-    }
-
-    public Event createEvent (Event event){
-        return event;
     }
 
     public Event updateEvent (Long eventId, Event updatedEvent){
@@ -36,5 +35,8 @@ public class EventService {
     public void deleteEvent (Long eventId){
     }
 
+    public Event createEvent(Event event) {
+        return event;
+    }
 }
 
