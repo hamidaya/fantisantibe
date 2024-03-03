@@ -10,6 +10,9 @@ import java.util.List;
 @RestController
 @RequestMapping("events")
 public class EventController {
+
+
+
     @Autowired
     private EventService eventService;
 
@@ -33,11 +36,24 @@ public class EventController {
         Event event = eventService.getEventById(eventName);
         return ResponseEntity.ok(event);
     }
-    
-    @PostMapping
-    public ResponseEntity<Event> createEvent(@RequestBody Event event) {
-        Event createdEvent = eventService.createEvent(event);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdEvent);
+
+    @PostMapping("/events")
+
+    public ResponseEntity<?> addEvent(@Valid @RequestBody eventDto eventDto) {
+        eventDto dto;
+
+// Hier gebruiken we weer een service methode in plaats van direct de repository aan te spreken.
+
+        if(eventDto.getFestival() != null && eventDto.getcampingAvailable() != null) {
+            dto = festivalService.addEvent(mapper.toFestival(eventDto));
+        } else if(festivalInputDto.getHdr()){
+            dto = partyService.addParty(mapper.toParty(eventDto));
+        } else {
+            return ResponseEntity.badRequest().body("Niet duidelijk of het een party of festival is");
+        }
+
+        return ResponseEntity.created(null).body(dto);
+
     }
 
     @PutMapping("/{eventId}")
