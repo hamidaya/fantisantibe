@@ -1,6 +1,4 @@
-package org.fantisanti.party;
-
-import org.fantisanti.event.Event;
+package org.fantisanti.models;
 
 import java.util.Date;
 
@@ -12,7 +10,7 @@ public class Party extends Event {
     String dressCode;
 
 
-     public Long getPartyID() {
+    public Long getPartyID() {
         return partyID;
     }
 
@@ -44,8 +42,8 @@ public class Party extends Event {
         this.dressCode = dressCode;
     }
 
-    public Party(Long EventID, String eventName, String eventLocation, Date eventDate, Double eventPrice, Integer availableTickets) {
-        super(EventID, eventName, eventLocation, eventDate, eventPrice, availableTickets);
+    public Party(Long partyID, String eventName, String eventLocation, Date eventDate, Double eventPrice, Integer availableTickets) {
+        super(partyID, eventName, eventLocation, eventDate, eventPrice, availableTickets);
     }
 }
 
