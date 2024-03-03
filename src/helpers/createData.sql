@@ -42,7 +42,7 @@ BEGIN
 
     FOR i IN 1..100 LOOP
 
-        INSERT INTO events (eventName, eventLocation, eventPrice, availableTickets, eventDate)
+        INSERT INTO events (eventName, eventLocation, eventPrice, availableTickets, eventDate, yearOfConsist)
 
         VALUES (
 
@@ -54,8 +54,9 @@ BEGIN
 
             floor(random() * 1000), 
 
-            '2024-01-01'::DATE + (random() * 365)::INT
+            '2024-01-01'::DATE + (random() * 365)::INT,
 
+            '2024-01-01'::DATE + (random() * 365)::INT
         );
 
     END LOOP;

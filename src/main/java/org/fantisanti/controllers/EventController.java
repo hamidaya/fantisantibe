@@ -1,4 +1,6 @@
-package org.fantisanti.event;
+package org.fantisanti.controllers;
+import org.fantisanti.services.EventService;
+import org.fantisanti.models.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +14,9 @@ public class EventController {
     private EventService eventService;
 
     public EventController(EventService eventService) {
-    this.eventService = eventService;
+        this.eventService = eventService;
     }
+
 
     @GetMapping
     public List<Event> getAllEvents() {
